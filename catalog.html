@@ -9,10 +9,10 @@
 <body>
   <header class="page-header">
     <nav class="navigation">
+     <img src="img/logo.svg" width="140" height="70" alt="Логотип сайта">
       <ul class="navigation-list">
         <li class="navigation-item">
           <a class="navigation-logo" href="index.html">
-            <img src="img/logo.svg" width="140" height="70" alt="Логотип сайта">
           </a>
           <a class="navigation-link" href="index.html">Главная</a>
         </li>
@@ -43,7 +43,7 @@
           <a class="navigation-link" href="#">
             <span class="visually-hidden">
 						Бронирование
-					</span>				
+					</span>
 		  <button>Хочу сюда!</button>
           </a>
         </li>
@@ -69,6 +69,7 @@
           </a>
         </li>
       </ul>
+      <form>
       <fieldset>
         <legend>Инфраструктура:</legend>
         <form>
@@ -92,9 +93,10 @@
         <input type="radio" id="typeofroom3" name="room" value="Апартаменты">
         <label for="typeofroom3">Апартаменты</label>
       </fieldset>
-      <button class="button" type="button">Применить</button>
-      <button class="button-clear" type="button">Сбросить</button>
+      <button class="button" type="submit">Применить</button>
+      <button class="button-clear" type="reset">Сбросить</button>
     </section>
+    </form>
     <section>
       <h3>Найдено гостиниц: 38</h3>
       <select class="select-control" aria-label="Сортировка">
@@ -120,11 +122,20 @@
           <b class="product-card-price">От 4000 ₽</b>
           <a class="product-card-button button" href="#">подробнее</a>
           <a class="favorite-card-button button" href="#">в избранное</a>
-          <img class="rating-in-stars" src="img/star.png" alt="rating">
-          <img class="rating-in-stars" src="img/star.png" alt="rating">
-          <img class="rating-in-stars" src="img/star.png" alt="rating">
-          <img class="rating-in-stars" src="img/star.png" alt="rating">
-          <span class="rating">Рейтинг: 8,5</span>
+          <ul>
+            <li>
+              <img class="rating-in-stars" src="img/star.png" alt="rating">
+            </li>
+          <li>
+            <img class="rating-in-stars" src="img/star.png" alt="rating">
+          </li>
+          <li>
+            <img class="rating-in-stars" src="img/star.png" alt="rating">
+          </li>
+          <li>
+            <img class="rating-in-stars" src="img/star.png" alt="rating">
+          </li>
+        </ul>
         </li>
         <li class="product-card">
           <a class="product-card-link" href="product.html">
@@ -134,11 +145,20 @@
           <b class="product-card-price">От 5000 ₽</b>
           <a class="product-card-button button" href="#">подробнее</a>
           <a class="in-favorites" href="#">в избранном</a>
-          <img class="rating-in-stars" src="img/star.png" alt="rating">
-          <img class="rating-in-stars" src="img/star.png" alt="rating">
-          <img class="rating-in-stars" src="img/star.png" alt="rating">
-          <img class="rating-in-stars" src="img/star.png" alt="rating">
-          <span class="rating">Рейтинг: 9,2</span>
+            <ul>
+              <li>
+                <img class="rating-in-stars" src="img/star.png" alt="rating">
+              </li>
+            <li>
+              <img class="rating-in-stars" src="img/star.png" alt="rating">
+            </li>
+            <li>
+              <img class="rating-in-stars" src="img/star.png" alt="rating">
+            </li>
+            <li>
+              <img class="rating-in-stars" src="img/star.png" alt="rating">
+            </li>
+          </ul>
         </li>
         <li class="product-card">
           <a class="product-card-link" href="product.html">
@@ -148,9 +168,21 @@
           <b class="product-card-price">От 2500 ₽</b>
           <a class="product-card-button button" href="#">подробнее</a>
           <a class="favorite-card-button button" href="#">в избранное</a>
-          <img class="rating-in-stars" src="img/star.png" alt="rating">
-          <img class="rating-in-stars" src="img/star.png" alt="rating">
-          <img class="rating-in-stars" src="img/star.png" alt="rating">
+          <ul>
+            <li>
+              <img class="rating-in-stars" src="img/star.png" alt="rating">
+            </li>
+          <li>
+            <img class="rating-in-stars" src="img/star.png" alt="rating">
+          </li>
+          <li>
+            <img class="rating-in-stars" src="img/star.png" alt="rating">
+          </li>
+          <li>
+            <img class="rating-in-stars" src="img/star.png" alt="rating">
+          </li>
+        </ul>
+      </li>
           <span class="rating">Рейтинг: 6,9</span>
         </li>
         <li class="product-card">
@@ -161,8 +193,14 @@
           <b class="product-card-price">От 1500 ₽</b>
           <a class="product-card-button button" href="#">подробнее</a>
           <a class="favorite-card-button button" href="#">в избранноe</a>
-          <img class="rating-in-stars" src="img/star.png" alt="rating">
-          <img class="rating-in-stars" src="img/star.png" alt="rating">
+          <ul>
+            <li>
+              <img class="rating-in-stars" src="img/star.png" alt="rating">
+            </li>
+          <li>
+            <img class="rating-in-stars" src="img/star.png" alt="rating">
+          </li>
+        </ul>
           <span class="rating">Рейтинг: 5,0</span>
         </li>
       </ul>
@@ -199,14 +237,23 @@
   <footer class="page-footer">
     <section class="footer-contacts">
       <a class="contacts" href=" https://vk.com/htmlacademy">
-        <img class="footer-contacts" src="img/vk-logo.png" alt="Логотип Вконтакте">
-      </a>
-      <a class="contacts" href="https://t.me/htmlacademy">
-        <img class="footer-contacts" src="img/tg-logo.png" alt="Логотип Телеграмм">
-      </a>
-      <a class="contacts" href="https://www.youtube.com/user/htmlacademyru">
-        <img class="footer-contacts" src="img/yt-logo.svg" alt="Логотип Ютуб">
-      </a>
+        <ul>
+          <li>
+          <a class="contacts" href=" https://vk.com/htmlacademy">
+            <img class="footer-contacts" src="img/vk-logo.png" alt="Логотип Вконтакте">
+          </a>
+        </li>
+        <li>
+          <a class="contacts" href="https://t.me/htmlacademy">
+            <img class="footer-contacts" src="img/tg-logo.png" alt="Логотип Телеграмм">
+          </a>
+        </li>
+        <li>
+          <a class="contacts" href="https://www.youtube.com/user/htmlacademyru">
+            <img class="footer-contacts" src="img/yt-logo.svg" alt="Логотип Ютуб">
+          </a>
+        </li>
+        </ul>
       <span class="contacts">+7 (812) 812-12-12</span>
       <a class="contacts" href="https://htmlacademy.ru/">
         <img class="footer-contacts-logo" src="img/HTMLacademy.svg" width="115" height="33" alt="Логотип html academy">
