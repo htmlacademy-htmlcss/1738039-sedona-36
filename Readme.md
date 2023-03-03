@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Алина Копалкина](https://up.htmlacademy.ru/htmlcss/36/user/1738039).
-* Наставник: `Неизвестно`.
+* Наставник: `Дмитрий Дроганов`. (https://htmlacademy.ru/profile/dmdragon)
 
 ---
 
