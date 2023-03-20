@@ -29,7 +29,7 @@
                   <span class="visually-hidden">Избранное.</span>
                 </a>
               </li>
-              <li class="navigation-item navigation-item-button"><a class="button button-link" href="#openModal">Хочу сюда!</a></li>
+              <li class="navigation-item"><a class="button navigation-item-button" href="#openModal">Хочу сюда!</a></li>
             </ul>
           </nav>
         </header>
@@ -39,15 +39,15 @@
             <nav class="breadcrumbs">
               <ol class="breadcrumbs-list">
                 <li class="breadcrumbs-item">
-                  <a href="index.html">
-					<img src="img/Hotel.svg" alt="Главная">
+                  <a class="breadcrumbs-index" href="index.html">
+					<img src="img/hotel.svg" alt="Главная">
 					</a>
                 </li>
                 <li class="breadcrumbs-item">
 				  <img src="img/arrow.svg" alt="Гостиницы">
 				</li>
 				<li class="breadcrumbs-item">
-				  Гостиницы
+				  <a class="breadcrumbs-item" href="catalog.html">Гостиницы</a>
 				</li>
               </ol>
             </nav>
@@ -82,7 +82,7 @@
                     value="apartment"><span class="control-mark-radio"></span>
                   <span class="control-input-text">Апартаменты</span></label>
               </fieldset>
-              <fieldset class="filter">
+              <fieldset class="filter-price">
                 <legend class="filter-legend-title">Стоимость, ₽:</legend>
                 <div class="input-range-numbers">
                   <label class="range-from-field">
@@ -113,7 +113,7 @@
         <section class="filter-select">
         <h2 class="filter-select-title">Найдено гостиниц: 38</h2>
         <select class="select-control" aria-label="Сортировка" name="sorting">
-          <option value="cheap">Сначала дешёвое</option>
+          <option value="cheap">Сначала дешёвые</option>
           <option value="popular">Сначала популярное</option>
           <option value="expensive">Сначала дорогое</option>
         </select>
@@ -131,26 +131,16 @@
               <img class="product-card-image" src="img/hotel-1.jpg" width="300" height="212" alt="Amara Resort & Spa">
 			</a>
 			<a class="product-card-link" href="">
-              <h4 class="product-card-title">Amara Resort & Spa</h4>
+        <h3 class="product-card-title">Amara Resort & Spa</h3>
 			</a>
 			<p class="product-type">Гостиница</p>
             <p class="product-card-price">От 4000 ₽</p>
             <a class="product-card-button button" href="#">подробнее</a>
-            <button class="favorite-card-button button" href="#">в избранное</button>
-            <ul class="stars">
-              <li class="rating-in-stars">
-                <img src="img/star.svg" alt="rating">
-              </li>
-              <li class="rating-in-stars">
-                <img src="img/star.svg" alt="rating">
-              </li>
-              <li class="rating-in-stars">
-                <img src="img/star.svg" alt="rating">
-              </li>
-              <li class="rating-in-stars">
-                <img src="img/star.svg" alt="rating">
-              </li>
-            </ul>
+            <button class="favorite-card-button button" type="button" href="#">в избранное</button>
+            <div class="rating-stars stars4">
+              <span class="rating-star visually-hidden">4 звезды</span>
+
+            </div>
 			<p class="rating">Рейтинг: 8,5</p>
           </li>
           <li class="product-card">
@@ -158,26 +148,16 @@
               <img class="product-card-image" src="img/hotel-2.jpg" width="300" height="212" alt="Villas at Poco Diablo">
             </a>
 			<a class="product-card-link" href="">
-			  <h4 class="product-card-title">Villas at Poco Diablo</h4>
+			  <h3 class="product-card-title">Villas at Poco Diablo</h3>
 			</a>
 			<p class="product-type">Гостиница</p>
             <p class="product-card-price">От 5000 ₽</p>
             <a class="product-card-button button" href="#">подробнее</a>
-            <button class="button button-added-to-favorites" href="#">в избранном</button>
-            <ul class="stars">
-              <li class="rating-in-stars">
-                <img src="img/star.svg" alt="rating">
-              </li>
-              <li class="rating-in-stars">
-                <img src="img/star.svg" alt="rating">
-              </li>
-              <li class="rating-in-stars">
-                <img src="img/star.svg" alt="rating">
-              </li>
-              <li class="rating-in-stars">
-                <img src="img/star.svg" alt="rating">
-              </li>
-            </ul>
+            <button class="button button-added-to-favorites" type="button" href=#>в избранном</button>
+            <div class="rating-stars stars4">
+              <span class="rating-star visually-hidden">4 звезды</span>
+
+            </div>
 			<p class="rating">Рейтинг: 9,2</p>
           </li>
           <li class="product-card">
@@ -185,26 +165,16 @@
               <img class="product-card-image" src="img/hotel-3.jpg" width="300" height="212" alt="Desert Quail Inn">
 			</a>
 			<a class="product-card-link" href="">
-              <h4 class="product-card-title">Desert Quail Inn</h4>
+              <h3 class="product-card-title">Desert Quail Inn</h3>
             </a>
 			<p class="product-type">Гостиница</p>
             <p class="product-card-price">От 2500 ₽</p>
             <a class="product-card-button button" href="#">подробнее</a>
-            <button class="favorite-card-button button" href="#">в избранное</button>
-            <ul class="stars">
-              <li class="rating-in-stars">
-                <img src="img/star.svg" alt="rating">
-              </li>
-              <li class="rating-in-stars">
-                <img src="img/star.svg" alt="rating">
-              </li>
-              <li class="rating-in-stars">
-                <img src="img/star.svg" alt="rating">
-              </li>
-              <li class="rating-in-stars">
-                <img src="img/star.svg" alt="rating">
-              </li>
-			</ul>
+            <button class="favorite-card-button button" type="button" href="#">в избранное</button>
+            <div class="rating-stars stars4">
+              <span class="rating-star visually-hidden">4 звезды</span>
+
+            </div>
 			<p class="rating">Рейтинг: 6,9</p>
           </li>
           <li class="product-card">
@@ -212,20 +182,16 @@
               <img class="product-card-image" src="img/hotel-4.jpg" width="300" height="212" alt="GreenTree Inn">
 			</a>
 			<a class="product-card-link" href="">
-              <h4 class="product-card-title">GreenTree Inn</h4>
+              <h3 class="product-card-title">GreenTree Inn</h3>
             </a>
 			<p class="product-type">Гостиница</p>
             <p class="product-card-price">От 1500 ₽</p>
             <a class="product-card-button button" href="#">подробнее</a>
             <button class="favorite-card-button button" href="#">в избранное</button>
-            <ul class="stars">
-              <li class="rating-in-stars">
-                <img src="img/star.svg" alt="rating">
-              </li>
-              <li class="rating-in-stars">
-                <img src="img/star.svg" alt="rating">
-              </li>
-			</ul>
+            <div class="rating-stars stars2">
+              <span class="rating-star visually-hidden">2 звезды</span>
+
+            </div>
 			<p class="rating">Рейтинг: 5,0</p>
           </li>
         </ul>
@@ -257,12 +223,11 @@
           </form>
         </section>
       </main>
-    </main>
-    <footer class="page-footer">
+    <footer class="page-footer-catalog">
       <section class="footer-social">
         <h3 class="visually-hidden">Социальные сети</h3>
         <ul class="footer-social-list">
-          <li class="footer-social-item">
+          <li class="footer-social-item vk">
             <a class="footer-social-link" href="https://vk.com/htmlacademy" target="_blank">
               <span class="visually-hidden">ВКонтакте</span>
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="14" fill="#83B3D3" viewBox="0 0 24 14">
@@ -270,7 +235,7 @@
               </svg>
             </a>
           </li>
-          <li class="footer-social-item">
+          <li class="footer-social-item tg">
             <a class="footer-social-link" href="https://t.me/htmlacademy " target="_blank">
               <span class="visually-hidden">Телеграм</span>
               <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="18" height="16" fill="#83B3D3" viewBox="0 0 18 16">

@@ -20,17 +20,18 @@
           <li class="navigation-item"><a href="catalog.html" class="navigation-link">Гостиницы</a></li>
         </ul>
         <ul class="navigation-list navigation-user">
-          <li class="navigation-item"><a class="navigation-link-search" href="#">
-          <span class="visually-hidden">Поиск.</span>
-          </a>
-        </li>
+          <li class="navigation-item">
+            <a class="navigation-link-search" href="#">
+              <span class="visually-hidden">Поиск.</span>
+            </a>
+          </li>
           <li class="navigation-item favorites-count">
             <span class="favorites-count-icon">12</span>
             <a class="navigation-link-favorites" href="#">
               <span class="visually-hidden">Избранное.</span>
             </a>
           </li>
-          <li class="navigation-item navigation-item-button"><a class="button button-link" href="#openModal">Хочу сюда!</a></li>
+          <li class="navigation-item"><a class="button navigation-item-button" href="#openModal">Хочу сюда!</a></li>
         </ul>
       </nav>
     </header>
@@ -63,19 +64,19 @@
           </li>
 
           <li class="advantages-small-area">
-            <h3 class="advantages-title advantages-title-underline-dark">Небольшая<br>площадь</h3>
+            <h3 class="advantages-title-second advantages-title-underline-dark">Небольшая<br>площадь</h3>
             <p class="advantages-description">Все достопримечательности
               <br>находятся очень близко</p>
           </li>
 
           <li class="advantages-trip">
-            <h3 class="advantages-title advantages-title-underline-dark">Красивая<br>дорога</h3>
+            <h3 class="advantages-title-second advantages-title-underline-dark">Красивая<br>дорога</h3>
             <p class="advantages-description">Ехать в Седону из Лас-Вегаса
               <br>совсем не скучно!</p>
           </li>
 
           <li class="advantages-small-groups">
-            <h3 class="advantages-title advantages-title-underline-dark">Мало<br>туристов</h3>
+            <h3 class="advantages-title-second advantages-title-underline-dark">Мало<br>туристов</h3>
             <p class="advantages-description">Большинство едет в Гранд
               <br>Каньон и толпится там</p>
           </li>
@@ -102,24 +103,30 @@
       <section class="advices">
         <ul class="advices-list">
           <li class="advices-item">
-            <img class="advices-img" src="img/House.svg" width="75" height="72" alt="Домик">
+            <img class="advices-img" src="img/house.svg" width="75" height="72" alt="Домик">
             <h2 class="advices-title">Жильё</h2>
-            <p class="advices-description">Рекомендуем пожить<br> в настоящем мотеле,<br> всё как в кино!</p>
+            <p class="advices-description">Рекомендуем пожить
+              <br> в настоящем мотеле,
+              <br> всё как в кино!</p>
           </li>
           <li class="advices-item advices-item-food">
             <img class="advices-img" src="img/food.svg" width="75" height="72" alt="Бургер">
             <h2 class="advices-title">Еда</h2>
-            <p class="advices-description">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
+            <p class="advices-description">Всегда заказывайте
+              <br> топовый фирменный бургер,
+              <br> вы не разочаруетесь!</p>
           </li>
           <li class="advices-item advices-item-present">
-            <img class="advices-img" src="img/Present.svg" width="75" height="72" alt="Подарок">
+            <img class="advices-img" src="img/present.svg" width="75" height="72" alt="Подарок">
             <h2 class="advices-title">Сувениры</h2>
-            <p class="advices-description">Не только китайского, но и настоящего местного производства!</p>
+            <p class="advices-description">Не только китайского,
+              <br> но и настоящего местного
+              <br> производства!</p>
           </li>
         </ul>
       </section>
 
-       <section class="hotel-search">
+      <section class="hotel-search">
         <h3 class="hotel-search-title">Заинтересовались?</h3>
         <p class="hotel-search-description">Укажите предполагаемые даты поездки,
           <br>и мы покажем вам лучшие предложения гостиниц в Седоне</p>
@@ -140,7 +147,7 @@
       <section class="footer-social">
         <h3 class="visually-hidden">Социальные сети</h3>
         <ul class="footer-social-list">
-          <li class="footer-social-item">
+          <li class="footer-social-item vk">
             <a class="footer-social-link" href="https://vk.com/htmlacademy" target="_blank">
               <span class="visually-hidden">ВКонтакте</span>
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="14" fill="#83B3D3" viewBox="0 0 24 14">
@@ -148,7 +155,7 @@
               </svg>
             </a>
           </li>
-          <li class="footer-social-item">
+          <li class="footer-social-item tg">
             <a class="footer-social-link" href="https://t.me/htmlacademy " target="_blank">
               <span class="visually-hidden">Телеграм</span>
               <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="18" height="16" fill="#83B3D3" viewBox="0 0 18 16">
@@ -180,7 +187,7 @@
 
   <div id="openModal" class="modal-container">
     <div class="modal modal-search">
-      <a href="#" class="modal-close-button" type="button">
+      <a href="#" class="modal-close-button">
         <span class="visually-hidden">Закрыть.</span>
         <svg class="close-button" width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M14.4905 1.78288L13.1982 0.49057L7.49048 6.19826L1.78279 0.49057L0.490479 1.78288L6.19817 7.49057L0.490479 13.1983L1.78279 14.4906L7.49048 8.78288L13.1982 14.4906L14.4905 13.1983L8.78279 7.49057L14.4905 1.78288Z" fill="black" />
@@ -247,6 +254,7 @@
                       <path d="M14 6H8V0H6V6H0V8H6V14H8V8H14V6Z" />
                     </svg>
                   </button>
+                </div>
                 </div>
             </li>
           </ul>
